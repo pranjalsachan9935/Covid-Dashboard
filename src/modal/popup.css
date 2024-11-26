@@ -110,3 +110,11 @@
     font-size: 12px;
   }
 }
+
+@media (max-width: 480px) {
+  .modal-content {
+    padding: 20px;
+    width: 310px;
+  }
+}
+
