@@ -103,3 +103,19 @@ body {
     width: 275px;
   }
 }
+@media (max-width: 480px) {
+  .dashboard-title {
+    font-size: 27px;
+  }
+
+  .chart-box {
+    flex: 0 0 100%; 
+    max-width: 100%;
+  }
+  .dashboard-subtitle {
+    font-size: 1.15rem;
+  }
+  .dashboard-title::after {
+    width: 260px;
+  }
+}
