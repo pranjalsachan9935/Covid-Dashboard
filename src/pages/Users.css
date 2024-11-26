@@ -254,7 +254,6 @@ canvas{
 @media (max-width: 768px) {
   .page-container {
     max-width: 100%;
-    padding: 15px;
   }
   .stats-container {
     flex-direction: column;
@@ -286,5 +285,11 @@ canvas{
   }
   .dropdown-menu li {
     font-size: 14.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-page-title::after {
+    width: 288px;
   }
 }
